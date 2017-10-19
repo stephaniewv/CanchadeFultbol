@@ -1,0 +1,60 @@
+.pasto{
+	width: 900px;
+	height: 500px;
+	background-color: rgba(128, 197, 107, 0.986);
+	position: absolute; /*lo posiciona en unas coordenadas determinadas relativas a la posición más cercana de su elemento padre o del bloque contenedor inicial.*/
+}
+.cancha{
+	width: 850px;
+	height: 450px;
+	border: 3px solid white;
+    margin-top: 20px;
+    margin-left: 20px;
+	position: absolute;
+}
+.porteria{
+	width: 121px;
+	height: 200px;
+	border: 3px solid white;
+	display: inline-block;
+	position: relative;
+	top: 130px;
+}
+.izquierda{
+	margin-left: -2px; /*Margen a la izquierda*/
+}
+.derecha{
+    margin-left: 600px;
+	position: absolute;
+}
+.circulo{
+    border: 3px solid white; /*Lo dibujamos*/
+    width: 200px;
+    height: 200px;
+    display: inline-block; /*Lo convertimos para que no ocupe todo el ancho*/
+    margin-left: 200px; /*Lo situamos en el medio colocando un margen a la izquierda*/
+    border-radius: 100%; /*convertimos en círculo*/
+    position: absolute; /*position nos permite llamar al top*/
+    top: 130px; /*se le da un tamaño de 100 para situarlo en el medio*/
+}
+
+.pelota{
+    width: 25px;
+	height: 25px;
+    background-color: white;
+	border-radius: 100%;
+	position: absolute;
+}
+
+.uno{
+	left: 105px;
+	top:133px;
+}
+.dos{
+	left: 430px;
+	top: 60px;
+}
+.tres{
+	left: 695px;
+	top: 300px;
+}
